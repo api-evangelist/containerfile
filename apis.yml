@@ -1,0 +1,14 @@
+name: Containerfile
+description: A text file containing instructions for building container images, compatible
+  with Docker's Dockerfile format and commonly used with Podman and other OCI-compliant
+  tools. It accelerates software delivery cycles and improves collaboration between
+  development and operations teams.
+url: https://github.com/containers/common/blob/main/docs/Containerfile.5.md
+tags:
+- Containers
+- DevOps
+- Infrastructure
+created: '2025'
+modified: '2025'
+apis: []
+common: []
