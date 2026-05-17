@@ -2,7 +2,7 @@ aid: containerfile
 url: >-
   https://raw.githubusercontent.com/api-evangelist/containerfile/refs/heads/main/apis.yml
 name: Containerfile
-x-type: standard
+kind: standard
 description: >-
   A Containerfile is a plain text file that contains instructions for
   building container images. It is fully compatible with Docker's
@@ -155,7 +155,7 @@ common:
     url: https://github.com/moby/buildkit/blob/master/frontend/dockerfile/docs/reference.md
   - type: Reference
     url: https://opencontainers.org/
-  - type: GitHub Organization
+  - type: GitHubOrganization
     url: https://github.com/containers
   - type: GitHubRepository
     url: https://github.com/containers/buildah
