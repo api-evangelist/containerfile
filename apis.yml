@@ -147,6 +147,10 @@ apis:
       - Verifying that Containerfile output conforms to OCI
       - Implementing multi-arch image manifests
 common:
+  - type: VulnerabilityDisclosure
+    url: security/containerfile-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/containerfile-domain-security.yml
   - type: Specification
     url: https://github.com/containers/common/blob/main/docs/Containerfile.5.md
   - type: Documentation
