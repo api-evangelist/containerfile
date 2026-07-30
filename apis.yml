@@ -12,7 +12,19 @@ description: >-
   defaults (CMD, ENTRYPOINT, EXPOSE, USER, WORKDIR, VOLUME). Modern
   build engines extend the format with cache, secret, and SSH mounts and
   with platform-aware multi-stage builds.
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+accessModel:
+  pricing: freemium
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Freemium
+  confidence: medium
+  source:
+  - plans
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/containerfile.png
 tags:
   - BuildKit
   - Buildah
