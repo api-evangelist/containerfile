@@ -159,6 +159,19 @@ apis:
       - Verifying that Containerfile output conforms to OCI
       - Implementing multi-arch image manifests
 common:
+  - type: IssueTracker
+    url: https://github.com/containers/common/issues
+  - type: Releases
+    url: https://github.com/containers/common/releases
+  - type: SecurityPolicy
+    url: https://github.com/containers/common/blob/main/SECURITY.md
+  - type: CodeOfConduct
+    url: https://github.com/containers/common/blob/main/CODE-OF-CONDUCT.md
+  - type: ContributionGuide
+    url: https://github.com/containers/common/blob/main/.github/CONTRIBUTING.md
+  - type: License
+    name: Apache-2.0
+    url: https://github.com/containers/common/blob/main/LICENSE
   - type: VulnerabilityDisclosure
     url: security/containerfile-vulnerability-disclosure.yml
   - type: DomainSecurity
