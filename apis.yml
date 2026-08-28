@@ -12,6 +12,18 @@ description: >-
   defaults (CMD, ENTRYPOINT, EXPOSE, USER, WORKDIR, VOLUME). Modern
   build engines extend the format with cache, secret, and SSH mounts and
   with platform-aware multi-stage builds.
+deliveryModel:
+  model: self-hosted
+  license: Apache-2.0
+  open_source: true
+  commercial: false
+  callable_host: false
+  label: Self-hosted open source · you run it yourself
+  confidence: high
+  source:
+  - license
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: freemium
   onboarding: unknown
