@@ -47,6 +47,17 @@ tags:
   - Image Build
   - OCI
   - Podman
+  - Standards
+tags_raw:
+  - BuildKit
+  - Buildah
+  - Containers
+  - DevOps
+  - Docker
+  - Dockerfile
+  - Image Build
+  - OCI
+  - Podman
   - Standard
 created: '2025-01-01'
 modified: '2026-04-28'
