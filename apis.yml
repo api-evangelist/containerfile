@@ -2,7 +2,7 @@ aid: containerfile
 url: >-
   https://raw.githubusercontent.com/api-evangelist/containerfile/refs/heads/main/apis.yml
 name: Containerfile
-kind: standard
+kind: topic
 description: >-
   A Containerfile is a plain text file that contains instructions for
   building container images. It is fully compatible with Docker's
