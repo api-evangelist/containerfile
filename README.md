@@ -1,4 +1,4 @@
-# Containerfile
+# containerfile
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,64 +64,22 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-A Containerfile is a plain text file that contains instructions for building container images. It is fully compatible with Docker's Dockerfile format and is the default file name used by Buildah and Podman. Containerfile instructions describe a base image (FROM), the steps to assemble the image (RUN, COPY, ADD, ARG, ENV), and runtime defaults (CMD, ENTRYPOINT, EXPOSE, USER, WORKDIR, VOLUME). Modern build engines extend the format with cache, secret, and SSH mounts and platform-aware multi-stage builds.
+## containerfile on APIs.io
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/containerfile/refs/heads/main/apis.yml)
+Everything profiled for containerfile is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/containerfile/](https://apis.io/providers/containerfile/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+## API Evangelist rating
 
-- BuildKit, Buildah, Containers, DevOps, Docker, Dockerfile, Image Build, OCI, Podman, Standard
+Not yet rated. See [apis.io/providers/containerfile/](https://apis.io/providers/containerfile/).
 
-## Timestamps
+## How this profile is made
 
-- **Created:** 2025-01-01
-- **Modified:** 2026-04-28
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-## APIs
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for containerfile: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
-### Containerfile Reference
-The official Containerfile reference shipped with the containers/common project.
+## Open an issue
 
-**Human URL:** [Containerfile.5.md](https://github.com/containers/common/blob/main/docs/Containerfile.5.md)
-
-#### Tags
-- Containerfile, Reference, containers/common
-
-### Dockerfile Reference
-The Dockerfile format reference maintained by Docker. Containerfile is a strict superset of Dockerfile.
-
-**Human URL:** [https://docs.docker.com/reference/dockerfile/](https://docs.docker.com/reference/dockerfile/)
-
-#### Tags
-- Docker, Dockerfile, Reference
-
-### BuildKit Dockerfile Frontend
-Dockerfile and Containerfile parsing is performed by BuildKit's Dockerfile frontend, distributed as a container image (docker/dockerfile).
-
-**Human URL:** [BuildKit reference](https://github.com/moby/buildkit/blob/master/frontend/dockerfile/docs/reference.md)
-
-#### Tags
-- BuildKit, Frontend, Moby
-
-### OCI Image Specification
-The Open Container Initiative Image Specification defines the format of the image artifacts produced by Containerfile and Dockerfile builds.
-
-**Human URL:** [https://github.com/opencontainers/image-spec](https://github.com/opencontainers/image-spec)
-
-#### Tags
-- Image, OCI, Standards
-
-## Common Properties
-
-- [Containerfile spec](https://github.com/containers/common/blob/main/docs/Containerfile.5.md)
-- [Dockerfile reference](https://docs.docker.com/reference/dockerfile/)
-- [BuildKit Dockerfile frontend](https://github.com/moby/buildkit/blob/master/frontend/dockerfile/docs/reference.md)
-- [OCI](https://opencontainers.org/)
-- [GitHub: containers](https://github.com/containers)
-- [GitHub: Buildah](https://github.com/containers/buildah)
-
-## Maintainers
-
-**FN:** Kin Lane
-
-**Email:** kin@apievangelist.com
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/containerfile/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
